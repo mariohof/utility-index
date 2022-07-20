@@ -719,7 +719,7 @@
                           "key": "primaryColumns.customColumn1.buttonLabel"
                         }
                       ],
-                      "leftColumn": 6,
+                      "leftColumn": 13,
                       "delimiter": ",",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisibleFilters": true,
@@ -751,8 +751,8 @@
                         "task": 245,
                         "step": 62,
                         "status": 75,
-                        "category": 356,
-                        "description": 632,
+                        "category": 247,
+                        "description": 426,
                         "customColumn1": 75
                       },
                       "widgetName": "Catagories_Table",
@@ -894,7 +894,7 @@
                         }
                       },
                       "isDeprecated": false,
-                      "rightColumn": 57,
+                      "rightColumn": 49,
                       "textSize": "1rem",
                       "widgetId": "e2tt2ih91w",
                       "tableData": "{{get_all_categories.data}}",
@@ -931,7 +931,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 55,
+                      "leftColumn": 47,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -940,7 +940,7 @@
                       "isDisabled": false,
                       "key": "1dihtr0jrn",
                       "isDeprecated": false,
-                      "rightColumn": 57,
+                      "rightColumn": 49,
                       "iconName": "plus",
                       "widgetId": "gjmdvur3ql",
                       "isVisible": true,
@@ -974,7 +974,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 6,
+                      "leftColumn": 13,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -986,7 +986,7 @@
                       "isDisabled": false,
                       "key": "udb6f1kxgr",
                       "isDeprecated": false,
-                      "rightColumn": 8,
+                      "rightColumn": 15,
                       "iconName": "refresh",
                       "widgetId": "7vwymg6jx7",
                       "isVisible": true,
