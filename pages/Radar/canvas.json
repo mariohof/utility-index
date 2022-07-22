@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1000,
+          "bottomRow": 940,
           "containerStyle": "none",
           "snapRows": 100,
           "parentRowSpace": 1,
@@ -38,14 +38,14 @@
                 "group"
               ],
               "topRow": 0,
-              "bottomRow": 9,
+              "bottomRow": 8,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 23.390625,
               "dynamicTriggerPathList": [],
-              "leftColumn": 2,
+              "leftColumn": 0,
               "dynamicBindingPathList": [
                 {
                   "key": "boxShadow"
@@ -142,7 +142,7 @@
               "key": "sjqt7js1z2",
               "backgroundColor": "#00406e",
               "isDeprecated": false,
-              "rightColumn": 62,
+              "rightColumn": 64,
               "widgetId": "9v6whh68go",
               "containerStyle": "card",
               "isVisible": true,
@@ -153,119 +153,201 @@
               "borderRadius": "0.375rem"
             },
             {
-              "boxShadow": "none",
-              "widgetName": "Refresh_IconButton",
-              "onClick": "{{fetch_active_catagorys.run()}}",
-              "buttonColor": "#2563eb",
-              "displayName": "Icon Button",
-              "iconSVG": "/static/media/icon.1a0c634a.svg",
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "widgetName": "Middle_Container",
+              "borderColor": "transparent",
+              "isCanvas": true,
+              "displayName": "Container",
+              "iconSVG": "/static/media/icon.1977dca3370505e2db3a8e44cfd54907.svg",
               "searchTags": [
-                "click",
-                "submit"
+                "div",
+                "parent",
+                "group"
               ],
-              "topRow": 9,
-              "bottomRow": 13,
+              "topRow": 8,
+              "bottomRow": 92,
               "parentRowSpace": 10,
-              "type": "ICON_BUTTON_WIDGET",
+              "type": "CONTAINER_WIDGET",
               "hideCard": false,
               "animateLoading": true,
-              "parentColumnSpace": 20.5,
-              "dynamicTriggerPathList": [
-                {
-                  "key": "onClick"
-                }
-              ],
-              "leftColumn": 2,
+              "parentColumnSpace": 19.8125,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 0,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
-                }
-              ],
-              "isDisabled": false,
-              "key": "pr3h5um9bw",
-              "isDeprecated": false,
-              "rightColumn": 4,
-              "iconName": "refresh",
-              "widgetId": "ulxyzpej6u",
-              "isVisible": true,
-              "version": 1,
-              "parentId": "0",
-              "renderMode": "CANVAS",
-              "isLoading": false,
-              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-              "buttonVariant": "TERTIARY"
-            },
-            {
-              "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
-              "widgetName": "Utility_Chart",
-              "allowScroll": false,
-              "displayName": "Chart",
-              "iconSVG": "/static/media/icon.6adbe31e.svg",
-              "searchTags": [
-                "graph",
-                "visuals",
-                "visualisations"
-              ],
-              "topRow": 13,
-              "bottomRow": 90,
-              "parentRowSpace": 10,
-              "type": "CHART_WIDGET",
-              "hideCard": false,
-              "chartData": {
-                "du4k1gdfl1": {
-                  "seriesName": "Sales_Test",
-                  "data": "{{fetch_active_catagorys.data.map((row) => {\n  return { x: row._id, y: row.count } \n }) \n}}"
-                }
-              },
-              "animateLoading": true,
-              "parentColumnSpace": 21.59375,
-              "dynamicTriggerPathList": [],
-              "leftColumn": 2,
-              "dynamicBindingPathList": [
+                },
                 {
-                  "key": "chartData.du4k1gdfl1.data"
+                  "key": "boxShadow"
                 }
               ],
-              "customFusionChartConfig": {
-                "type": "column2d",
-                "dataSource": {
-                  "chart": {
-                    "caption": "Sales Report",
-                    "xAxisName": "Product Line",
-                    "yAxisName": "Revenue($)",
-                    "theme": "fusion"
-                  },
-                  "data": [
+              "children": [
+                {
+                  "boxShadow": "none",
+                  "widgetName": "Canvas4",
+                  "displayName": "Canvas",
+                  "topRow": 0,
+                  "bottomRow": 820,
+                  "parentRowSpace": 1,
+                  "type": "CANVAS_WIDGET",
+                  "canExtend": false,
+                  "hideCard": true,
+                  "minHeight": 400,
+                  "parentColumnSpace": 1,
+                  "leftColumn": 0,
+                  "dynamicBindingPathList": [
                     {
-                      "label": "Product1",
-                      "value": 20000
+                      "key": "borderRadius"
                     },
                     {
-                      "label": "Product2",
-                      "value": 22000
-                    },
-                    {
-                      "label": "Product3",
-                      "value": 32000
+                      "key": "accentColor"
                     }
-                  ]
+                  ],
+                  "children": [
+                    {
+                      "boxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+                      "widgetName": "Utility_Chart",
+                      "allowScroll": false,
+                      "displayName": "Chart",
+                      "iconSVG": "/static/media/icon.6adbe31e.svg",
+                      "searchTags": [
+                        "graph",
+                        "visuals",
+                        "visualisations"
+                      ],
+                      "topRow": 4,
+                      "bottomRow": 80,
+                      "parentRowSpace": 10,
+                      "type": "CHART_WIDGET",
+                      "hideCard": false,
+                      "chartData": {
+                        "du4k1gdfl1": {
+                          "seriesName": "Sales_Test",
+                          "data": "{{fetch_active_catagorys.data.map((row) => {\n  return { x: row._id, y: row.count } \n }) \n}}"
+                        }
+                      },
+                      "animateLoading": true,
+                      "parentColumnSpace": 21.59375,
+                      "dynamicTriggerPathList": [],
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "chartData.du4k1gdfl1.data"
+                        }
+                      ],
+                      "customFusionChartConfig": {
+                        "type": "column2d",
+                        "dataSource": {
+                          "chart": {
+                            "caption": "Sales Report",
+                            "xAxisName": "Product Line",
+                            "yAxisName": "Revenue($)",
+                            "theme": "fusion"
+                          },
+                          "data": [
+                            {
+                              "label": "Product1",
+                              "value": 20000
+                            },
+                            {
+                              "label": "Product2",
+                              "value": 22000
+                            },
+                            {
+                              "label": "Product3",
+                              "value": 32000
+                            }
+                          ]
+                        }
+                      },
+                      "key": "67pqlrudkn",
+                      "isDeprecated": false,
+                      "rightColumn": 64,
+                      "widgetId": "799ww3vc9e",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "trljkwjkc0",
+                      "labelOrientation": "auto",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "yAxisName": "Revenue($)",
+                      "chartName": "Anwendungsbereiche",
+                      "borderRadius": "0.375rem",
+                      "xAxisName": "Product Line",
+                      "chartType": "PIE_CHART"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "widgetName": "Refresh_IconButton",
+                      "onClick": "{{fetch_active_catagorys.run()}}",
+                      "buttonColor": "#2563eb",
+                      "displayName": "Icon Button",
+                      "iconSVG": "/static/media/icon.1a0c634a.svg",
+                      "searchTags": [
+                        "click",
+                        "submit"
+                      ],
+                      "topRow": 0,
+                      "bottomRow": 4,
+                      "parentRowSpace": 10,
+                      "type": "ICON_BUTTON_WIDGET",
+                      "hideCard": false,
+                      "animateLoading": true,
+                      "parentColumnSpace": 20.5,
+                      "dynamicTriggerPathList": [
+                        {
+                          "key": "onClick"
+                        }
+                      ],
+                      "leftColumn": 0,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "isDisabled": false,
+                      "key": "pr3h5um9bw",
+                      "isDeprecated": false,
+                      "rightColumn": 2,
+                      "iconName": "refresh",
+                      "widgetId": "ulxyzpej6u",
+                      "isVisible": true,
+                      "version": 1,
+                      "parentId": "trljkwjkc0",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "buttonVariant": "TERTIARY"
+                    }
+                  ],
+                  "key": "8hq5y140gk",
+                  "isDeprecated": false,
+                  "rightColumn": 475.5,
+                  "detachFromLayout": true,
+                  "widgetId": "trljkwjkc0",
+                  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                  "containerStyle": "none",
+                  "isVisible": true,
+                  "version": 1,
+                  "parentId": "3ycok45pwl",
+                  "renderMode": "CANVAS",
+                  "isLoading": false,
+                  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
                 }
-              },
-              "key": "67pqlrudkn",
+              ],
+              "borderWidth": "0",
+              "key": "zmxp0a7zp6",
+              "backgroundColor": "#f4f4f5",
               "isDeprecated": false,
-              "rightColumn": 62,
-              "widgetId": "799ww3vc9e",
+              "rightColumn": 64,
+              "widgetId": "3ycok45pwl",
+              "containerStyle": "card",
               "isVisible": true,
               "version": 1,
               "parentId": "0",
-              "labelOrientation": "auto",
               "renderMode": "CANVAS",
               "isLoading": false,
-              "yAxisName": "Revenue($)",
-              "chartName": "Anwendungsbereiche",
-              "borderRadius": "0.375rem",
-              "xAxisName": "Product Line",
-              "chartType": "PIE_CHART"
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
             }
           ]
         },

@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1290,
+          "bottomRow": 940,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
@@ -46,7 +46,7 @@
               "animateLoading": true,
               "parentColumnSpace": 23.390625,
               "dynamicTriggerPathList": [],
-              "leftColumn": 2,
+              "leftColumn": 0,
               "dynamicBindingPathList": [
                 {
                   "key": "boxShadow"
@@ -143,7 +143,7 @@
               "key": "sjqt7js1z2",
               "backgroundColor": "#00406e",
               "isDeprecated": false,
-              "rightColumn": 62,
+              "rightColumn": 64,
               "widgetId": "5rgvn0nbre",
               "containerStyle": "card",
               "isVisible": true,
@@ -165,15 +165,15 @@
                 "parent",
                 "group"
               ],
-              "topRow": 10,
-              "bottomRow": 91,
+              "topRow": 9,
+              "bottomRow": 92,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 23.390625,
               "dynamicTriggerPathList": [],
-              "leftColumn": 2,
+              "leftColumn": 0,
               "dynamicBindingPathList": [
                 {
                   "key": "boxShadow"
@@ -206,7 +206,7 @@
                       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
                       "isVisibleDownload": false,
                       "iconSVG": "/static/media/icon.db8a9cbd.svg",
-                      "topRow": 8,
+                      "topRow": 4,
                       "isSortable": true,
                       "type": "TABLE_WIDGET",
                       "animateLoading": true,
@@ -278,7 +278,7 @@
                           "key": "tableData"
                         }
                       ],
-                      "leftColumn": 4,
+                      "leftColumn": 0,
                       "delimiter": ",",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisibleFilters": true,
@@ -574,7 +574,7 @@
                       "key": "p22m91q42z",
                       "derivedColumns": {},
                       "isDeprecated": false,
-                      "rightColumn": 61,
+                      "rightColumn": 64,
                       "textSize": "0.875rem",
                       "widgetId": "przklh5kme",
                       "tableData": "{{fetch_all_utilitys.data}}",
@@ -603,8 +603,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 4,
-                      "bottomRow": 8,
+                      "topRow": 0,
+                      "bottomRow": 4,
                       "tooltip": "Refresh Table",
                       "parentRowSpace": 10,
                       "type": "ICON_BUTTON_WIDGET",
@@ -616,7 +616,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 4,
+                      "leftColumn": 0,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -625,7 +625,7 @@
                       "isDisabled": false,
                       "key": "xesjm1r5tl",
                       "isDeprecated": false,
-                      "rightColumn": 7,
+                      "rightColumn": 3,
                       "iconName": "refresh",
                       "widgetId": "vwldsc4kvv",
                       "isVisible": true,
@@ -647,8 +647,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 4,
-                      "bottomRow": 8,
+                      "topRow": 0,
+                      "bottomRow": 4,
                       "tooltip": "New Utility",
                       "parentRowSpace": 10,
                       "type": "ICON_BUTTON_WIDGET",
@@ -660,7 +660,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 58,
+                      "leftColumn": 61,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -669,7 +669,7 @@
                       "isDisabled": false,
                       "key": "i4czy97zq4",
                       "isDeprecated": false,
-                      "rightColumn": 61,
+                      "rightColumn": 64,
                       "iconName": "plus",
                       "widgetId": "jays75zv5h",
                       "isVisible": true,
@@ -700,7 +700,7 @@
               "key": "3a47tjq7vv",
               "backgroundColor": "#f4f4f5",
               "isDeprecated": false,
-              "rightColumn": 62,
+              "rightColumn": 64,
               "widgetId": "ezf68vhs1i",
               "containerStyle": "card",
               "isVisible": true,
@@ -870,7 +870,7 @@
                       "animateLoading": true,
                       "parentColumnSpace": 18.8125,
                       "dynamicTriggerPathList": [],
-                      "leftColumn": 2,
+                      "leftColumn": 3,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -1592,7 +1592,7 @@
                       "key": "le28z924ly",
                       "backgroundColor": "#f4f4f5",
                       "isDeprecated": false,
-                      "rightColumn": 61,
+                      "rightColumn": 62,
                       "widgetId": "1wb7s4bkg6",
                       "isVisible": true,
                       "parentId": "t64m51l6yk",

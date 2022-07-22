@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1000,
+          "bottomRow": 940,
           "containerStyle": "none",
           "snapRows": 100,
           "parentRowSpace": 1,
@@ -502,7 +502,7 @@
               "animateLoading": true,
               "parentColumnSpace": 23.390625,
               "dynamicTriggerPathList": [],
-              "leftColumn": 2,
+              "leftColumn": 0,
               "dynamicBindingPathList": [
                 {
                   "key": "boxShadow"
@@ -599,7 +599,7 @@
               "key": "sjqt7js1z2",
               "backgroundColor": "#00406e",
               "isDeprecated": false,
-              "rightColumn": 62,
+              "rightColumn": 64,
               "widgetId": "nul7j35vt2",
               "containerStyle": "card",
               "isVisible": true,
@@ -621,15 +621,15 @@
                 "parent",
                 "group"
               ],
-              "topRow": 10,
-              "bottomRow": 95,
+              "topRow": 9,
+              "bottomRow": 92,
               "parentRowSpace": 10,
               "type": "CONTAINER_WIDGET",
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 23.390625,
               "dynamicTriggerPathList": [],
-              "leftColumn": 2,
+              "leftColumn": 0,
               "dynamicBindingPathList": [
                 {
                   "key": "boxShadow"
@@ -641,7 +641,7 @@
                   "widgetName": "Canvas4",
                   "displayName": "Canvas",
                   "topRow": 0,
-                  "bottomRow": 820,
+                  "bottomRow": 780,
                   "parentRowSpace": 1,
                   "type": "CANVAS_WIDGET",
                   "canExtend": false,
@@ -662,7 +662,7 @@
                       "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
                       "isVisibleDownload": false,
                       "iconSVG": "/static/media/icon.db8a9cbd.svg",
-                      "topRow": 8,
+                      "topRow": 4,
                       "isSortable": true,
                       "type": "TABLE_WIDGET",
                       "animateLoading": true,
@@ -722,7 +722,7 @@
                           "key": "primaryColumns.customColumn1.buttonLabel"
                         }
                       ],
-                      "leftColumn": 6,
+                      "leftColumn": 0,
                       "delimiter": ",",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "isVisibleFilters": true,
@@ -775,7 +775,7 @@
                       "searchTags": [
                         "datagrid"
                       ],
-                      "bottomRow": 80,
+                      "bottomRow": 76,
                       "parentRowSpace": 10,
                       "defaultSelectedRow": "0",
                       "hideCard": false,
@@ -897,7 +897,7 @@
                         }
                       },
                       "isDeprecated": false,
-                      "rightColumn": 57,
+                      "rightColumn": 64,
                       "textSize": "1rem",
                       "widgetId": "e2tt2ih91w",
                       "tableData": "{{get_all_categories.data}}",
@@ -921,8 +921,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 4,
-                      "bottomRow": 8,
+                      "topRow": 0,
+                      "bottomRow": 4,
                       "tooltip": "Katagorie erweitern",
                       "parentRowSpace": 10,
                       "type": "ICON_BUTTON_WIDGET",
@@ -934,7 +934,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 55,
+                      "leftColumn": 62,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -943,7 +943,7 @@
                       "isDisabled": false,
                       "key": "1dihtr0jrn",
                       "isDeprecated": false,
-                      "rightColumn": 57,
+                      "rightColumn": 64,
                       "iconName": "plus",
                       "widgetId": "gjmdvur3ql",
                       "isVisible": true,
@@ -965,8 +965,8 @@
                         "click",
                         "submit"
                       ],
-                      "topRow": 4,
-                      "bottomRow": 8,
+                      "topRow": 0,
+                      "bottomRow": 4,
                       "parentRowSpace": 10,
                       "type": "ICON_BUTTON_WIDGET",
                       "hideCard": false,
@@ -977,7 +977,7 @@
                           "key": "onClick"
                         }
                       ],
-                      "leftColumn": 6,
+                      "leftColumn": 0,
                       "dynamicBindingPathList": [
                         {
                           "key": "buttonColor"
@@ -989,7 +989,7 @@
                       "isDisabled": false,
                       "key": "udb6f1kxgr",
                       "isDeprecated": false,
-                      "rightColumn": 8,
+                      "rightColumn": 2,
                       "iconName": "refresh",
                       "widgetId": "7vwymg6jx7",
                       "isVisible": true,
@@ -1020,7 +1020,7 @@
               "key": "sjqt7js1z2",
               "backgroundColor": "#f4f4f5",
               "isDeprecated": false,
-              "rightColumn": 62,
+              "rightColumn": 64,
               "widgetId": "8nqsh45d8l",
               "containerStyle": "card",
               "isVisible": true,
