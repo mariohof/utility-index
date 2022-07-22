@@ -1253,7 +1253,7 @@
                             {
                               "boxShadow": "none",
                               "widgetName": "Usage_Modal_MultiSelect",
-                              "isFilterable": false,
+                              "isFilterable": true,
                               "displayName": "MultiSelect",
                               "iconSVG": "/static/media/icon.a3495809.svg",
                               "labelText": "Verwendung",
@@ -1470,7 +1470,7 @@
                             {
                               "boxShadow": "none",
                               "widgetName": "Developer_Modal_MultiSelect",
-                              "isFilterable": false,
+                              "isFilterable": true,
                               "displayName": "MultiSelect",
                               "iconSVG": "/static/media/icon.a3495809.svg",
                               "labelText": "Entwickler",
