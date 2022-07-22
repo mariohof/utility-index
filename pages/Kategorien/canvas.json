@@ -556,6 +556,9 @@
                         },
                         {
                           "key": "fontFamily"
+                        },
+                        {
+                          "key": "textColor"
                         }
                       ],
                       "shouldTruncate": false,
@@ -568,7 +571,7 @@
                       "widgetId": "50pq3f3tzp",
                       "isVisible": true,
                       "fontStyle": "BOLD",
-                      "textColor": "#231F20",
+                      "textColor": "{{appsmith.theme.colors.backgroundColor}}",
                       "version": 1,
                       "parentId": "zs15pgea5c",
                       "renderMode": "CANVAS",
@@ -594,7 +597,7 @@
               ],
               "borderWidth": "0",
               "key": "sjqt7js1z2",
-              "backgroundColor": "#f4f4f5",
+              "backgroundColor": "#00406e",
               "isDeprecated": false,
               "rightColumn": 62,
               "widgetId": "nul7j35vt2",
